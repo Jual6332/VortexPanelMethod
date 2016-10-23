@@ -1,16 +1,16 @@
 # VortexPanelMethod
 A computational lab for ASEN 3111 that uses the Vortex Panel Method to compute the lifting flow over several different NACA airfoils. 
 
-# Running the Code:
+## Running the Code:
 * Download all Matlab Files
 * Open in Matlab software (2014b or newer)
 * Run the "runThis.m" file
 * All calculations will be run
 
-# Changing the Code for Other Resolutions
+## Changing the Code for Other Resolutions
 * Go to line 11 on "runThis.m" and change N to your desired number (Note: That N=5000 panels is the nominal case)
 
-# Change the Code for Other Airfoil Shapes or Freestream Conditions
+## Change the Code for Other Airfoil Shapes or Freestream Conditions
 * Go to line 12 to change freestream Velocity
 * Go to line 13 to change angle of attack
 * Go to lines 17, 18, 19 to change airfoil geometry
