@@ -16,6 +16,7 @@ A computational lab for ASEN 3111 that uses the Vortex Panel Method to compute t
 * Go to lines 17, 18, 19 to change airfoil geometry
 
 
+
 ## Journal of Updates
 #### This serves as a listing of software updates during the software development process
 #### Updates are listed reverse chronologically
