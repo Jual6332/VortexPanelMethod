@@ -1,6 +1,5 @@
 function [x_new,y_new] = NACA_Airfoil(m,p,t,c,N)
-    %x = linspace(0,c,(N/2)); % Iterate an array for x along the chord
-    x = linspace(0,c,N);
+    x = linspace(0,c,N); % Iterate an array for x along the chord
     
     % Initial Declarations:
     y_t = zeros(1,length(x)); % y_t
