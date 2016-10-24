@@ -84,8 +84,10 @@ function [c_l] = Vortex_Panel(Xb,Yb,V_inf,alpha)
     % Plot the coefficient of pressure Graph for the airfoil
     figure;
     plot(x./c,-CP)
+    alpha = alpha*180/pi; % Convert back to degrees
+    name = strcat('C_{p} vs x/c for \alpha = ',num2str(alpha));
+    title(name)
     xlabel('x/c')
     ylabel('C_{p}')
-
 
 end
