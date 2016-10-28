@@ -21,6 +21,20 @@ A computational lab for ASEN 3111 that uses the Vortex Panel Method to compute t
 #### This serves as a listing of software updates during the software development process
 #### Updates are listed reverse chronologically
 
+
+
+### Update 3:
+Current progress: 
+* Code changes
+  * Nominal number of panels dropped to 250 from 2500
+  * This amount error is allowable, with less than 1% error
+* New functions
+  * problem3.m
+  * plotCLvsAlpha.m
+* Report changes
+  * Only missing Cp vs alpha graph and conclusion paragraph
+
+
 ### Update 2:
 Current progress: 
 * Report progress is coming along nicely
