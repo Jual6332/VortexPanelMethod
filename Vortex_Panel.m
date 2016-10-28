@@ -1,7 +1,7 @@
-function [c_l] = Vortex_Panel(Xb,Yb,V_inf,alpha)
+function [c_l,V,s] = Vortex_Panel(Xb,Yb,V_inf,alpha)
     Mp = length(Xb); % Make sure there is the same number of x and y data values
     M = Mp-1; % Next iteration of M
-    alpha = alpha*pi/180; % Convert to degrees
+    alpha = alpha*pi/180; % Convert to radians
 
 % Coordinates (x,y) of control point and panel length S are 
 % computed for each of the vortex panels
@@ -73,12 +73,20 @@ function [c_l] = Vortex_Panel(Xb,Yb,V_inf,alpha)
         end
     end
     
+    %V = cos(theta(i) - alpha) + AT*Gama;
+    %CP = 1 - V.^2;
+    %G = s'*(Gama(1:M) + Gama(2:Mp))/2;
+    
     %% Calculate the Circulation
-    Circ = sum(V.*s);% Sum the Circulation of the flow
+    %Circ = sum(V.*s);% Sum the Circulation of the flow
+    Circ = sum(V.*s);
+    %for i=1:length(V)
+    %    Circ = Circ + V(i)*s(i);
+    %end  
     
     %% Calculate the Sectional Coefficient of Lift
-    c = abs(max(x)-min(x)); % Estimate the chord, based on x
-    c_l = 2*Circ/(V_inf*c); % Calculate the secitonal coefficient of lift
+    c = abs(max(Xb)-min(Xb)); % Estimate the chord, based on x
+    c_l = 2*Circ/(c); % Calculate the secitonal coefficient of lift
     
     %% Plot Everything    
     % Plot the coefficient of pressure Graph for the airfoil
