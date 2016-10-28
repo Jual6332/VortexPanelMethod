@@ -21,6 +21,20 @@ A computational lab for ASEN 3111 that uses the Vortex Panel Method to compute t
 #### This serves as a listing of software updates during the software development process
 #### Updates are listed reverse chronologically
 
+### Update 2:
+Current progress: 
+* Report progress is coming along nicely
+  * Error section finished
+  * 3/4 pages filled
+  * Results for Cl at alpha = 0deg displayed for different resolutions
+* NACA_Airfoil.m is still working fine, no changes in a week
+* Vortex_Panel.m function is working now, cl is not dependent on Vinf and c is function of Xb not local x
+* Finished Error Analysis
+  * Nominal number of panels of 1500, based on different resolutions
+  * Determine a degree of error that is allowable
+* Current item: Plotting cl vs alpha (continuous) for all airfoils
+  * Issue: Code runs slow, thinking of decreasing number of panels
+
 
 ### Update 1:
 Files initially commited to git
