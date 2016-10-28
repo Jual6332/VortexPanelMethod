@@ -73,16 +73,8 @@ function [c_l,V,s] = Vortex_Panel(Xb,Yb,V_inf,alpha)
         end
     end
     
-    %V = cos(theta(i) - alpha) + AT*Gama;
-    %CP = 1 - V.^2;
-    %G = s'*(Gama(1:M) + Gama(2:Mp))/2;
-    
     %% Calculate the Circulation
-    %Circ = sum(V.*s);% Sum the Circulation of the flow
     Circ = sum(V.*s);
-    %for i=1:length(V)
-    %    Circ = Circ + V(i)*s(i);
-    %end  
     
     %% Calculate the Sectional Coefficient of Lift
     c = abs(max(Xb)-min(Xb)); % Estimate the chord, based on x
