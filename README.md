@@ -1,5 +1,5 @@
 # VortexPanelMethod
-A computational lab for ASEN 3111 that uses the Vortex Panel Method to compute the lifting flow over several different NACA airfoils. 
+A numerical analysis project for predicting the lifting flow among other aerodynamic quantities over NACA airfoils. Software developed using Matlab, involves basic algorithm implementation
 
 ## Running the Code:
 * Download all Matlab Files
