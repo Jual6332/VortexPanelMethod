@@ -5,7 +5,7 @@ A computational lab for ASEN 3111 that uses the Vortex Panel Method to compute t
 * Download all Matlab Files
 * Open in Matlab software (2014b or newer)
 * Run the "runThis.m" file
-* All calculations will be run
+* All calculations will appear on the screen
 
 ## Changing the Code for Other Resolutions
 * Go to line 11 on "runThis.m" and change N to your desired number (Note: That N=250 panels is the nominal case)
