@@ -16,4 +16,4 @@ A numerical analysis project for predicting the lifting flow over several NACA a
 * Go to lines 17, 18, 19 to change airfoil geometry
 
 ## Journal of Updates
-See [https://github.com/Jual6332/VortexPanelMethod/blob/master/Journal.md Journal.md] for listing of software updates throughout the lifecycle
+See [Journal.md](https://github.com/Jual6332/VortexPanelMethod/blob/master/Journal.md) for listing of software updates throughout the lifecycle
