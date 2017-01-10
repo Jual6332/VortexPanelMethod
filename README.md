@@ -1,5 +1,5 @@
 # VortexPanelMethod
-A numerical analysis project for predicting the lifting flow among other aerodynamic quantities over NACA airfoils. Software developed using Matlab, involves basic algorithm implementation
+A numerical analysis project for predicting the lifting flow over several NACA airfoils. Software developed with Matlab, involves basic algorithm implementation
 
 ## Running the Code:
 * Download all Matlab Files
